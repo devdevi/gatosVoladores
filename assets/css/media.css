@@ -1,0 +1,83 @@
+@media  (min-width: 799px ) and (max-width: 1000px ) {
+    [class*='col-']{/*a todas esas col *=,, emtre el minimo y el maximo toma las col y dejalas a l 100% para que al achicarse*/ 
+        width:100%;
+     }  
+     .imgOne{
+      background-image: url(../img/night.jpg);
+    }
+     img{
+         content: url(../img/kitten-small.png);
+         height: 400px;
+         margin: 25vh 30vh 2vh 25vh;
+         padding-left: 5em;
+     }
+        
+}
+
+@media (min-width: 698px ) and (max-width: 798px )  {
+    [class*='col-']{/*a todas esas col *=,, emtre el minimo y el maximo toma las col y dejalas a l 100% para que al achicarse*/ 
+        width: 100%;
+     }
+     .imgOne{
+
+          background-image: url(../img/dawn.png);
+     }
+     img{
+        content: url(../img/kitten-large.png);
+        height: 280px;
+        margin: 0;
+        margin-top: 15em;
+        margin-left: 5em;
+     }
+
+}
+@media (min-width: 596px ) and (max-width: 697px )  {
+  [class*='col-']{/*a todas esas col *=,, emtre el minimo y el maximo toma las col y dejalas a l 100% para que al achicarse*/ 
+    width: 100%;
+     }
+     .imgOne{
+
+          background-image: url(../img/dawn.png);
+     }
+     img{
+        content: url(../img/kitten-large.png);
+        height: 240px;
+        margin: 0;
+        margin-top: 15em;
+        margin-left: 5em;
+     }
+}
+@media (min-width: 495px ) and (max-width: 595px )  {
+  [class*='col-']{/*a todas esas col *=,, emtre el minimo y el maximo toma las col y dejalas a l 100% para que al achicarse*/ 
+    width: 100%;
+     }
+     .imgOne{
+
+          background-image: url(../img/dawn.png);
+     }
+     img{
+        content: url(../img/kitten-large.png);
+        height: 180px;
+        margin: 0;
+        margin-top: 15em;
+        margin-left: 5em;
+     }
+}
+@media (min-width: 0px ) and (max-width: 494px )  {
+  [class*='col-']{/*a todas esas col *=,, emtre el minimo y el maximo toma las col y dejalas a l 100% para que al achicarse*/ 
+    width: 100%;
+     }
+     .imgOne{
+
+          background-image: url(../img/dawn.png);
+     }
+     img{
+        content: url(../img/kitten-large.png);
+        height: 150px;
+        margin: 0;
+        margin-top: 15em;
+        margin-left: 5em;
+     }
+
+
+}
